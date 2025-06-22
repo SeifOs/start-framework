@@ -2,9 +2,23 @@
   --main-color: #1abc9c;
   --secondary-color: #2c3e50;
 }
+* {
+  color: white;
+}
 .bg-main {
   background-color: var(--main-color);
 }
 .bg-second {
   background-color: var(--secondary-color);
+}
+.vh-95 {
+  height: 95vh;
+}
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+}
+.w-35 {
+  width: 35%;
 }
