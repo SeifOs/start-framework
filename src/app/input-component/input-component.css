@@ -1,0 +1,8 @@
+span {
+  z-index: -1;
+  position: absolute;
+  color: red;
+}
+input:hover + span {
+  z-index: 1;
+}

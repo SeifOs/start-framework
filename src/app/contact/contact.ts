@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { InputComponent } from '../input-component/input-component';
 
 @Component({
   selector: 'app-contact',
-  imports: [],
+  imports: [InputComponent],
   templateUrl: './contact.html',
-  styleUrl: './contact.css'
+  styleUrl: './contact.css',
 })
-export class Contact {
-
-}
+export class Contact {}
