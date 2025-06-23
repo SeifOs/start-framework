@@ -1,0 +1,18 @@
+.bg-footer {
+  background-color: #1a252f;
+}
+h3 {
+  text-transform: uppercase;
+}
+div {
+  width: calc(100% / 4);
+}
+li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #fff;
+  border-radius: 50%;
+}
